@@ -12,6 +12,9 @@ section {
         padding: 15px 40px;
         color: #fff;
         margin-top: 20px;
+        &:hover{
+            background: rgba(3, 202, 181,0.8); 
+        }
     }
 }
 
@@ -231,5 +234,8 @@ h2 {
                 color: rgba(3, 202, 181, 0.7);
             }
         }
+    }
+    @media(max-width:767px){
+        
     }
 }
